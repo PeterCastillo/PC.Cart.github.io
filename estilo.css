@@ -1,0 +1,115 @@
+.container {
+    height: 100vh;
+    width: 60vw;
+    margin: auto;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 5rem;
+    display: flex;
+}
+
+.productos {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.producto {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.producto-img {
+    width: 6rem;
+    height: 8rem;
+}
+
+.producto-about {
+    width: 15rem;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+.producto-about button {
+    border-radius: 2rem;
+    border: none;
+    width: 100%;
+    padding: 0.3rem;
+    cursor: pointer;
+    background-color:hsl(223, 64%, 98%);
+}
+
+.carrito {
+    height: 100%;
+    width: 40%;
+    border-left: solid 2px hsl(223, 64%, 98%);
+}
+
+.carrito-producto {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.carrito-producto-img {
+    width: 6rem;
+    height: 8rem;
+}
+
+.carrito-producto-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.counter {
+    display: flex;
+    width: 9rem;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 1rem;
+    height: 1.5rem;
+}
+
+.btncounter,
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 100%;
+}
+
+.btncounter {
+    cursor: pointer;
+}
+
+.carrito-producto-about > span  {
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    background-color: hsl(223, 64%, 98%);
+}
+
+.carrito-producto-about button {
+    width: 9rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 0.3rem;
+    cursor: pointer;
+}
